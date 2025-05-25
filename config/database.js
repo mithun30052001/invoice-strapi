@@ -2,12 +2,13 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
     connection: {
-      host: env('DATABASE_HOST', '127.0.0.1'),
+      host: env('DATABASE_HOST', 'db.mtkfbeahzpzftxfoqmef.supabase.co'),
       port: env.int('DATABASE_PORT', 5432),
-      database: env('DATABASE_NAME', 'invoice_cms'),
-      user: env('DATABASE_USERNAME', 'invoice_strapi'),
+      database: env('DATABASE_NAME', 'postgres'),
+      user: env('DATABASE_USERNAME', 'postgres'),
       password: env('DATABASE_PASSWORD', 'invoice_currency'),
       ssl: env.bool('DATABASE_SSL', false),
     },
+    useNullAsDefault: true,
   },
 });
