@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_ones",
+  "info": {
+    "singularName": "test-one",
+    "pluralName": "test-ones",
+    "displayName": "TestOne"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_twos",
+  "info": {
+    "singularName": "test-two",
+    "pluralName": "test-twos",
+    "displayName": "TestTwo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
